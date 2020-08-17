@@ -1,0 +1,3 @@
+在spring中，可以在<bean>元素的scope属性里设置bean的作用域，以决定这个bean是单实例的还是多实例的。
+默认情况下，spring只为每个在IOC容器里声明的bean创建唯一一个实例，整个IOC容器范围内都能共享该实例: 所有后续的getBean()调用和bean引用都
+将返回这个唯一的bean实例，该作用域被称为singleTon,它是所有bean的默认作用域。
